@@ -1,0 +1,86 @@
+.hideSearchUser
+{	
+	-webkit-animation-name:slideOut1;
+	-webkit-animation-duration:1.5s;
+}
+
+ @-webkit-keyframes slideOut1
+{
+	  from {
+        margin-left:0%;
+        width:100%
+      }
+      
+      to {
+        margin-left:-220%;
+        width:150%;
+      }
+} 
+
+.showSearchUser
+{
+	-webkit-animation-name:slideIn1;
+	-webkit-animation-duration:2s;
+}
+
+ @-webkit-keyframes slideIn1
+{
+	  from {
+        margin-left:220%;
+        width:170%
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+      }
+} 
+
+.hideAddUser
+{
+	-webkit-animation-name:slideOut2;
+	-webkit-animation-duration:1.5s;
+}
+ @-webkit-keyframes slideOut2
+{
+	  from {
+        left:200px;
+        width:300px;
+      }
+      
+      to {
+        left:-1100px;
+        width:500px;
+      }
+} 
+
+.showAddUser
+{
+	-webkit-animation-name:slideIn2;
+	-webkit-animation-duration:2s;
+}
+ @-webkit-keyframes slideIn2
+{
+	  from {
+        left:1100px;
+        width:600px;
+      }
+      
+      to {
+        left:15	0px;
+        width:300px;
+      }
+} 
+#searchUserGroup
+{
+	width:166px;
+	margin:0 auto;
+	-webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+}
+#searchUserGroup:hover
+{
+	width:200px;
+}
+
+
